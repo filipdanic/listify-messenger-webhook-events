@@ -1,6 +1,6 @@
 {
   "name": "listify-messenger-webhook-events",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parses the events object from Messenger webhook and returns an array of events.",
   "homepage": "https://github.com/filipdanic/listify-messenger-webhook-events",
   "bugs": {
