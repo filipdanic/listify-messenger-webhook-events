@@ -1,0 +1,33 @@
+{
+  "name": "listify-messenger-webhook-events",
+  "version": "0.0.1",
+  "description": "Parses the events object from Messenger webhook and returns an array of events.",
+  "homepage": "https://github.com/filipdanic/listify-messenger-webhook-events",
+  "bugs": {
+    "url": "https://github.com/filipdanic/listify-messenger-webhook-events/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipdanic/listify-messenger-webhook-events.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "webhook events"
+  ],
+  "author": {
+    "name": "Filip Danić",
+    "email": "filipdanic7@gmail.com",
+    "url": "http://danicfilip.com"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/*.js -d lib",
+    "test": "node src/tests/listify.test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
