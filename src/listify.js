@@ -47,7 +47,7 @@ export default (body = {}) => {
       if (event.postback) {
         ret.push({
           type: EVENT_TYPES.POSTBACK,
-          postback: event.postback,
+          message: event.postback,
           senderId,
         });
         return;
