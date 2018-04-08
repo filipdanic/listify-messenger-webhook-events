@@ -4,6 +4,8 @@ Parses the events object from Messenger webhook and returns an array of events.
 
 ## Usage
 
+Install with `yarn add listify-messenger-webhook-events`.
+
 ```javascript
 import listify, { EVENT_TYPES } from 'listify-messenger-webhook-events';
 
