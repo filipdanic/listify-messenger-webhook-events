@@ -92,6 +92,15 @@ export default (body = {}) => {
           senderId,
         });
       }
+
+      if (event.account_linking) {
+        ret.push({
+          accountLinking: event.account_linking,
+          type: EVENT_TYPES.ACCOUNT_LINKING,
+          event: event,
+          senderId,
+        });
+      }
     })
   });
   return ret;
